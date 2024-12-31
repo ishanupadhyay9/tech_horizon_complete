@@ -2,7 +2,7 @@ import React from 'react'
 import  {HomePageExplore} from "../../../data/homepage-explore"
 import HighlightText from './HighlightText';
 import { useState } from 'react';
-
+import CourseCard from './CourseCard';
 
 const tabsName = [
     "Free",
@@ -27,7 +27,7 @@ const ExploreMore = () => {
 
 
   return (
-    <div>
+    <div className='w-full relative'>
 
       <div className='text-4xl font-semibold text-center'>
         Unlock the 
@@ -38,7 +38,7 @@ const ExploreMore = () => {
         Learn to build anything you can imagine
       </p>  
 
-      <div className='mt-5 flex flex-row rounded-full bg-richblack-800 mb-5 border-richblack-100
+      <div className='mt-5 flex flex-row rounded-full bg-richblack-800 mb-5  w-fit mx-auto border-richblack-100
       px-1 py-1'>
       {
         tabsName.map( (element, index) => {
@@ -60,11 +60,11 @@ const ExploreMore = () => {
 
       </div>
 
-      <div className='lg:h-[150px]'></div>
+      <div className='lg:h-[250px]'></div>
 
       {/* course card ka group */}
 
-      {/* <div className='absolute flex flex-row gap-10 justify-between w-full'>
+      <div className='absolute flex flex-row gap-10 justify-between w-full top-[190px]  '>
         {
             courses.map(  (element, index) => {
                 return (
@@ -77,7 +77,7 @@ const ExploreMore = () => {
                 )
             } )
         }
-      </div> */}
+      </div>
 
 
     </div>
