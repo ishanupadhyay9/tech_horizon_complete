@@ -7,3 +7,30 @@ html, body{
 .homepage_bg {
     background: url("../src/assets/Images/bghome.svg");
 }
+.spinner {
+    scale: 2;
+    margin-top: 250px;
+    width: 56px;
+    height: 31.4px;
+    background: radial-gradient(farthest-side,#474bff 90%,#0000) 0   50%/13.4px 13.4px,
+           radial-gradient(farthest-side at bottom,#47c8ff 90%,#0000) 50%  calc(50% - 3.4px)/13.4px 6.7px,
+           radial-gradient(farthest-side at top   ,#47c8ff 90%,#0000) 50%  calc(50% + 3.4px)/13.4px 6.7px,
+           radial-gradient(farthest-side at bottom,#47c8ff 90%,#0000) 100% calc(50% - 3.4px)/13.4px 6.7px,
+           radial-gradient(farthest-side at top   ,#47c8ff 90%,#0000) 100% calc(50% + 3.4px)/13.4px 6.7px;
+    background-repeat: no-repeat;
+    animation: dots-hw4mnxmd 1s infinite;
+ }
+ 
+ @keyframes dots-hw4mnxmd {
+    25% {
+       background-position: 0    50%,50% 0,50% 100%,100% 0,100% 100%;
+    }
+ 
+    50% {
+       background-position: 100% 50%,0   0,0   100%,50%  0,50%  100%;
+    }
+ 
+    75%, 100% {
+       background-position: 100% 50%,0 calc(50% - 3.4px),0 calc(50% + 3.4px),50% calc(50% - 3.4px),50% calc(50% + 3.4px);
+    }
+ }
