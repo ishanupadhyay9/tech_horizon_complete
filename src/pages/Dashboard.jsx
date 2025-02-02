@@ -9,7 +9,7 @@ function Dashboard() {
 
   if (profileLoading || authLoading) {
     return (
-      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center ml-[100px]">
+      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center ml-[300px] mt-[300px]">
         <div className="spinner"></div>
       </div>
     )
