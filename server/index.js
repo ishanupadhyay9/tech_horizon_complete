@@ -20,12 +20,10 @@ database.connect();
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(
-	cors({
-		origin:"http://localhost:3000",
-		credentials:true,
-	})
-)
+app.use(cors({
+	origin: ["http://localhost:3000", "https://tech-horizon-complete.vercel.app"], // ✅ Allows both local and deployed frontend
+	credentials: true
+  }));
 
 app.use(
 	fileUpload({
