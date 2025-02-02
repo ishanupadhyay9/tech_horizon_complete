@@ -15,7 +15,7 @@ const StatsComponenet = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 text-center">
           {Stats.map((data, index) => {
             return (
-              <div className={`flex flex-col py-10 ${index%2===0?"bg-[#6332f6]":"bg-[#2f02d1]"} border-[1px] rounded-full mx-4 my-1 `} key={index}>
+              <div className={`flex flex-col py-10 ${index%2===0?"bg-[#6332f6]":"bg-[#2f02d1]"} border-[1.5px] rounded-full mx-4 my-1 `} key={index}>
                 <h1 className="text-[30px] font-bold text-richblack-5">
                   {data.count}
                 </h1>
