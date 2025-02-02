@@ -67,7 +67,7 @@ const Footer = () => {
                       key={index}
                       className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                     >
-                      <Link to={ele.split(" ").join("-").toLowerCase()}>
+                      <Link >
                         {ele}
                       </Link>
                     </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                 Support
               </h1>
               <div className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200 mt-2">
-                <Link to={"/help-center"}>Help Center</Link>
+                <Link >Help Center</Link>
               </div>
             </div>
 
@@ -95,7 +95,7 @@ const Footer = () => {
                       key={index}
                       className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                     >
-                      <Link to={ele.split(" ").join("-").toLowerCase()}>
+                      <Link >
                         {ele}
                       </Link>
                     </div>
@@ -113,7 +113,7 @@ const Footer = () => {
                       key={index}
                       className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                     >
-                      <Link to={ele.split(" ").join("-").toLowerCase()}>
+                      <Link>
                         {ele}
                       </Link>
                     </div>
@@ -138,7 +138,7 @@ const Footer = () => {
                           key={index}
                           className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200"
                         >
-                          <Link to={link.link}>{link.title}</Link>
+                          <Link >{link.title}</Link>
                         </div>
                       );
                     })}
@@ -164,7 +164,7 @@ const Footer = () => {
                       : "border-r border-richblack-200 cursor-pointer hover:text-[#9fe1ff] transition-all duration-200 text-richblack-5"
                   } px-3 `}
                 >
-                  <Link to={ele.split(" ").join("-").toLocaleLowerCase()}>
+                  <Link>
                     {ele}
                   </Link>
                 </div>

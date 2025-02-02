@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className="bg-gradient-to-b from-[#1a0e33] to-[#34019a]">
       {/* Section 1 */}
-      <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 text-white bg-gradient-to-b from-#1a0e33 to-[#34019a] pt-10 pl-10 pr-10 mt-4 rounded-lg">
+      <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 text-white bg-[#34019a00] pt-10 pl-10 pr-10 mt-4 rounded-lg">
         {/* Become a Instructor Button */}
         <Link to={"/signup"}>
 
