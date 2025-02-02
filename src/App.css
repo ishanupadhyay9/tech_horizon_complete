@@ -9,7 +9,7 @@ html, body{
 }
 .spinner {
     scale: 2;
-    margin-top: 250px;
+    margin-top: 0px;
     width: 56px;
     height: 31.4px;
     background: radial-gradient(farthest-side,#474bff 90%,#0000) 0   50%/13.4px 13.4px,

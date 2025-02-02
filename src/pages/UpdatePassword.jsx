@@ -35,7 +35,7 @@ function UpdatePassword() {
   }
 
   return (
-    <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
+    <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center bg-[#34019a]">
       {loading ? (
         <div className="spinner"></div>
       ) : (
@@ -58,7 +58,7 @@ function UpdatePassword() {
                 value={password}
                 onChange={handleOnChange}
                 placeholder="Enter Password"
-                className="form-style w-full !pr-10"
+                className="form-style w-full !pr-10 p-2 rounded-xl"
               />
               <span
                 onClick={() => setShowPassword((prev) => !prev)}
@@ -82,7 +82,7 @@ function UpdatePassword() {
                 value={confirmPassword}
                 onChange={handleOnChange}
                 placeholder="Confirm Password"
-                className="form-style w-full !pr-10"
+                className="form-style w-full !pr-10 p-2 rounded-xl"
               />
               <span
                 onClick={() => setShowConfirmPassword((prev) => !prev)}

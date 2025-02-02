@@ -25,6 +25,7 @@ module.exports = {
         800: "#161D29",
         900: "#000814",
       },
+     
       richblue: {
         5: "#ECF5FF",
         25: "#C6D6E1",
