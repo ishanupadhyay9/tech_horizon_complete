@@ -9,8 +9,8 @@ function Dashboard() {
 
   if (profileLoading || authLoading) {
     return (
-      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center ml-[900px] mt-[900px]">
-        <div className="spinner"></div>
+      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center ">
+        <div className="spinner mx-auto mt-[400px] ml-[400px]"></div>
       </div>
     )
   }
