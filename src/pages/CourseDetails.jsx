@@ -75,7 +75,7 @@ function CourseDetails() {
 
   if (loading || !response) {
     return (
-      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
+      <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center  bg-[#34019a]">
         <div className="spinner"></div>
       </div>
     )
