@@ -9,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
     "browser-router": "^0.2.0",
     "chart.js": "^4.4.7",
     "concurrently": "^9.1.0",
@@ -39,7 +40,6 @@
     "video-react": "^0.16.0",
     "web-vitals": "^2.1.4"
   },
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
